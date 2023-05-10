@@ -1,0 +1,594 @@
+body {
+    background-color: #000000;
+}
+
+.left {
+    position: absolute;
+
+    padding: 32px 15px;
+    width: 10%;
+    color: aliceblue;
+    left: 8%;
+    top: -3%;
+}
+
+.left img {
+
+    width: 52%;
+}
+
+.right {
+
+    position: absolute;
+    color: white;
+
+    right: 29%;
+    top: 3%;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+
+    display: inline-block;
+}
+
+.navbar li a {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 16px 22px;
+    font-size: 18px;
+}
+
+.navbar li a:hover {
+    color: #4e4e4e;
+}
+
+.mid {
+    position: absolute;
+
+    top: 12%;
+
+}
+
+.mid img {
+    opacity: 0.8;
+    width: 100%;
+}
+
+.text1 {
+    position: absolute;
+    top: 54%;
+    left: 12%;
+
+    color: white;
+    font-family: 'Salsa', cursive;
+    font-size: 6rem;
+}
+
+.text2 {
+
+    font-family: 'Salsa', cursive;
+    color: rgb(44 114 235);
+   
+}
+
+.text3 {
+    position: absolute;
+    top: 67%;
+    left: 12%;
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 25px;
+    padding: -1px 22px;
+}
+
+.text4 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+  
+}
+
+.map {
+    position: absolute;
+
+    top: 130%;
+    right: 6%;
+}
+
+.map img {
+    width: 100%;
+}
+
+.rightmap {
+    position: absolute;
+
+    padding: 2px 2px;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 66px;
+    top: 140%;
+    left: 17%;
+    width: 32%;
+}
+
+.location {
+    position: absolute;
+
+    padding: 2px 2px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 34px;
+    font-weight: 500;
+    top: 163%;
+    left: 17%;
+    width: 32%;
+}
+
+.trophy img {
+    position: absolute;
+
+    top: 260%;
+    left: 8%;
+}
+
+.second {
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    color: rgb(34 33 33);
+    top: 234%;
+    left: 26%;
+    font-size: 152px;
+}
+
+.we {
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 248%;
+    left: 43%;
+    font-size: 46px;
+}
+
+.bluewe {
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    color: rgb(44 114 235);
+    top: 248%;
+    left: 50%;
+    font-size: 46px;
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    color: rgb(250, 251, 255);
+    top: 282%;
+    left: 60%;
+    font-size: 32px;
+}
+
+.third img {
+    position: absolute;
+    border: 2px solid #8b8282;
+    top: 404%;
+    left: 8%;
+}
+
+.text2pg {
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    color: rgb(42 42 42);
+    top: 355%;
+    left: 34%;
+    font-size: 152px;
+}
+
+.btext2pg {
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 368%;
+    left: 45%;
+    font-size: 48px;
+
+}
+
+.info2 {
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 420%;
+    left: 64%;
+    font-size: 34px;
+}
+
+.testimonial img {
+    position: absolute;
+    top: 460%;
+    width: 98%;
+    opacity: 0.2;
+
+
+}
+
+.rep {
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    color: rgb(42 42 42);
+    top: 480%;
+    left: 26%;
+    font-size: 152px;
+}
+
+.smallrep {
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 494%;
+    left: 42%;
+    font-size: 48px;
+}
+
+.person1 img {
+    position: absolute;
+    top: 520%;
+    left: 64%;
+}
+
+.person2 img {
+    position: absolute;
+    top: 520%;
+    left: 23%;
+}
+
+.person1name {
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    color: #b5b5b5;
+    top: 553%;
+    left: 64%;
+    font-size: 34px;
+}
+
+.person2name {
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    color: #b5b5b5;
+    top: 553%;
+    left: 21%;
+    font-size: 34px;
+}
+
+.slogan {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    color: rgb(193 193 193);
+    top: 502%;
+    left: 35%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.dance {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    color: rgb(44 114 235);
+    top: 502%;
+    left: 51%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.last img {
+    background-color: white;
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+
+    top: 636%;
+    left: 19%;
+    height: 89%;
+    width: 21%;
+}
+
+.rs img {
+    background-color: white;
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+
+    top: 636%;
+    left: 41%;
+    height: 89%;
+    width: 21%;
+}
+
+.off img {
+    background-color: white;
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+
+    top: 636%;
+    left: 63%;
+    height: 89%;
+    width: 21%;
+}
+
+.off :hover {
+    transform: scale(1.1);
+    z-index: 2;
+    box-shadow: 0px 10px 19px 19px;
+}
+
+.rs :hover {
+    transform: scale(1.1);
+
+    z-index: 2;
+    box-shadow: 0px 10px 19px 19px;
+}
+
+.last :hover {
+    transform: scale(1.1);
+    z-index: 2;
+    box-shadow: 0px 10px 19px 19px;
+}
+
+.last :not(:hover) {
+    opacity: 0.8;
+}
+
+.rs :not(:hover) {
+    opacity: 0.8;
+}
+
+.off :not(:hover) {
+    opacity: 0.8;
+}
+
+.memtext {
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    color: rgb(42 42 42);
+    top: 605%;
+    left: 26%;
+    font-size: 152px;
+}
+
+.smmem {
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 619%;
+    left: 43%;
+    font-size: 48px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 750%;
+    border: 2px solid white;
+    background-color: white;
+    left: 29%;
+    padding: 10px 20px;
+    width: 48%;
+}
+
+.li2 {
+    position: absolute;
+    font-family: 'Russo One', sans-serif;
+    top: 756%;
+
+    background-color: white;
+    left: 29%;
+    padding: 11px 22px;
+    width: 48%;
+    z-index: -1;
+}
+
+.li3 {
+    position: absolute;
+    font-family: 'Russo One', sans-serif;
+    top: 762%;
+
+    background-color: white;
+    left: 29%;
+    padding: 10px 22px;
+    width: 48%;
+    z-index: -1;
+}
+
+.dropbtn {
+
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000000;
+    text-decoration: none;
+    background-color: inherit;
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #dddddd;
+    min-width: 50%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    left: 50%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-family: 'Russo One', sans-serif;
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.last2 {
+    position: absolute;
+    top: 2px;
+    ;
+}
+
+.look {
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    top: 756%;
+
+    left: 26%;
+    padding: 11px 24px;
+    background-color: rgb(44 114 235);
+    ;
+}
+
+.looks {
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    top: 750%;
+
+    left: 26%;
+    padding: 12px 25px;
+    background-color: rgb(44 114 235);
+    ;
+}
+
+.loo {
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    top: 762%;
+
+    left: 26%;
+    padding: 11px 24px;
+    background-color: rgb(44 114 235);
+    ;
+}
+
+.faq {
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 92px;
+    top: 732%;
+    left: 46%;
+}
+
+.border {
+    border: 1px solid white;
+    position: absolute;
+    background-color: white;
+    left: 1px;
+    top: 1px;
+    height: 487em;
+}
+
+.imglast img {
+    position: absolute;
+    top: 457em;
+    width: 13%;
+    left: 12%;
+}
+
+.lastright2 {
+    position: absolute;
+    top: 459em;
+    right: 12%;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-decoration: none;
+
+}
+
+.nobullet {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.nobullet :hover {
+    color: rgb(44 114 235);
+    ;
+
+}
+
+.nobullet li {
+    margin-bottom: 36px;
+
+    list-style: none;
+}
+
+.blueborder {
+    background-color: rgb(44 114 235);
+    ;
+    position: absolute;
+    top: 480em;
+    width: 98%;
+    left: 0px;
+    padding: 27px 18px;
+}
+
+.whiteborder {
+    background-color: #ffffff;
+    position: absolute;
+    top: 483em;
+    width: 98%;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    padding: 38px 18px;
+}
+
+.insta img {
+    position: absolute;
+    top: 480em;
+    width: 10%;
+    height: 53px;
+    left: 87px;
+}
+
+#scroll1 {
+    top: 230%;
+
+    position: absolute;
+    font-size: 33px;
+}
+
+#scroll2 {
+    position: absolute;
+
+
+    font-size: 33px;
+    top: 360%;
+}
+
+#scroll3 {
+    position: absolute;
+
+    top: 470%;
+    font-size: 33px;
+}
+
+#scroll4 {
+    position: absolute;
+
+    top: 595%;
+    font-size: 33px;
+}
